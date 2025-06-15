@@ -9,6 +9,7 @@ import EventModal from './EventModal';
 import { useAuth } from '../context/AuthContext';
 
 export default function EventTable({ events, setEvents ,handleEdit}) {
+ 
   const [open, setOpen] = useState(false);
   // const [selectedEvent, setSelectedEvent] = useState(null);
   const { token } = useAuth();
